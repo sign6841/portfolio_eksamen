@@ -1,0 +1,207 @@
+/*---------------------------------------Generelt--------------------------------------*/
+
+* {
+    margin: 0px;
+    font-size: 62.5%;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+html {
+    background-color: #FFD067;
+    font-size: 1.6rem;
+    font-family: 'Merriweather', serif;
+}
+
+/*Animationer*/
+
+.hidden {
+    opacity: 0;
+}
+#links {
+    transition: transform 0.3s;
+    transform-origin: top left;
+}
+#menuknap {
+    cursor: pointer;
+    font-size: 50px;
+    margin-top: -20px;
+}
+
+/*---------------------------------------mobil media--------------------------------------*/
+
+@media only screen and (max-width: 800px) {
+    html {}
+    nav {
+        display: grid;
+        height: 30px;
+        grid-auto-flow: column;
+        background-color: #FFFFFF;
+        grid-gap: 1em;
+        padding: 1.5em;
+        padding-left: 2em;
+        padding-right: 2em;
+        position: relative;
+    }
+    #links {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-auto-flow: column;
+        grid-gap: 30px;
+        padding-bottom: 115px;
+        font-size: 3px;
+    }
+    nav a {
+        font-size: 4.5em;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+    }
+    nav a:hover {
+        color: #0045C7;
+    }
+    h2 {
+        font-family: 'Merriweather', serif;
+        font-size: 5em;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+    iframe {
+        width: 100%;
+    }
+    footer {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        position: fixed;
+        height: 2em;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: black;
+        font-size: 1em;
+    }
+}
+
+/*---------------------------------------tablet media--------------------------------------*/
+
+@media screen and (max-width: 1100px) and (min-width: 800px) {
+    #menuknap {
+        display: none;
+    }
+    #links.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    nav {
+        display: grid;
+        height: 55px;
+        grid-auto-flow: column;
+        background-color: #FFFFFF;
+        grid-gap: 1em;
+        padding: 1.5em;
+        padding-left: 2em;
+        padding-right: 2em;
+        position: relative;
+    }
+    #links {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-auto-flow: column;
+        grid-gap: 40em;
+        padding-bottom: 115px;
+    }
+    nav a {
+        font-size: 4.5em;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+    }
+    nav a:hover {
+        color: #0045C7;
+    }
+    h2 {
+        font-family: 'Merriweather', serif;
+        font-size: 5em;
+        font-weight: 500;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    footer {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        position: fixed;
+        height: 2em;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: black;
+        font-size: 1em;
+    }
+}
+
+/*---------------------------------------desktop media-------------------------------------*/
+
+@media only screen and (min-width: 1100px) {
+    #menuknap {
+        display: none;
+    }
+    #links.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    nav {
+        display: grid;
+        height: 55px;
+        grid-auto-flow: column;
+        background-color: #FFFFFF;
+        grid-gap: 1em;
+        padding: 1.5em;
+        padding-left: 2em;
+        padding-right: 2em;
+        position: relative;
+    }
+    #links {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-auto-flow: column;
+        grid-gap: 40em;
+        padding-bottom: 115px;
+    }
+    nav a {
+        font-size: 4.5em;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+    }
+    nav a:hover {
+        color: #0045C7;
+    }
+    h2 {
+        font-family: 'Merriweather', serif;
+        font-size: 5em;
+        font-weight: 500;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    footer {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        position: fixed;
+        height: 2em;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: black;
+        font-size: 1em;
+    }
+}
