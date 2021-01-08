@@ -84,7 +84,7 @@ html {
         margin: 10px;
     }
     .section_wrapper img {
-        width: 300px;
+        width: 400px;
         height: auto;
     }
     #portfolio .section_wrapper {
@@ -180,10 +180,13 @@ html {
         margin-bottom: 15px;
     }
     h2 {
-        font-family: 'Merriweather', serif;
+        font-family: 'Henny Penny', cursive;
         font-size: 5em;
         font-weight: 500;
         padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        border: black 4px dotted;
     }
     h3 {
         margin-top: 2em;
@@ -197,6 +200,12 @@ html {
         font-size: 1.5em;
         line-height: 1.4;
         margin-bottom: 20px;
+    }
+    a {
+        font-size: 1.5em;
+    }
+    video {
+        width: 89%;
     }
 }
 
@@ -261,7 +270,7 @@ html {
         grid-template-rows: 1fr;
     }
     .section_wrapper img {
-        width: 300px;
+        width: 400px;
         height: auto;
     }
     #portfolio .section_wrapper {
@@ -364,16 +373,25 @@ html {
         margin-bottom: 2em;
     }
     h2 {
-        font-family: 'Merriweather', serif;
+        font-family: 'Henny Penny', cursive;
         font-size: 5em;
         font-weight: 500;
         padding-bottom: 20px;
         padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        border: black 4px dotted;
     }
     .col p {
         font-size: 1.5em;
         line-height: 1.4;
         margin-bottom: 20px;
+    }
+    a {
+        font-size: 2em;
+    }
+    video {
+        width: 50%;
     }
 }
 
@@ -427,7 +445,7 @@ html {
         margin: 20px;
     }
     .section_wrapper img {
-        width: 300px;
+        width: 400px;
         height: auto;
     }
     #portfolio .section_wrapper {
@@ -530,16 +548,27 @@ html {
         margin-bottom: 2em;
     }
     h2 {
-        font-family: 'Merriweather', serif;
+        font-family: 'Henny Penny', cursive;
         font-size: 5em;
         font-weight: 500;
         padding-bottom: 20px;
         padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        border: black 4px dotted;
     }
     .col p {
         font-size: 1.5em;
         line-height: 1.4;
         margin-bottom: 20px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    a {
+        font-size: 2em;
+    }
+    video {
+        width: 80%;
     }
     footer {
         display: grid;

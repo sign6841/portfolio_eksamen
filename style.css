@@ -7,6 +7,10 @@
 img {
     width: 100%;
     height: auto;
+    padding-bottom: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 html {
     background-color: #FFD067;
@@ -63,10 +67,13 @@ html {
         color: #0045C7;
     }
     h2 {
-        font-family: 'Merriweather', serif;
+        font-family: 'Henny Penny', cursive;
         font-size: 5em;
         font-weight: 500;
         padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        border: black 4px dotted;
     }
     iframe {
         width: 100%;
@@ -125,11 +132,14 @@ html {
         color: #0045C7;
     }
     h2 {
-        font-family: 'Merriweather', serif;
+        font-family: 'Henny Penny', cursive;
         font-size: 5em;
         font-weight: 500;
         padding-bottom: 20px;
         padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        border: black 4px dotted;
     }
     footer {
         display: grid;
@@ -185,11 +195,14 @@ html {
         color: #0045C7;
     }
     h2 {
-        font-family: 'Merriweather', serif;
+        font-family: 'Henny Penny', cursive;
         font-size: 5em;
         font-weight: 500;
         padding-bottom: 20px;
         padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        border: black 4px dotted;
     }
     footer {
         display: grid;
@@ -203,5 +216,27 @@ html {
         background-color: white;
         color: black;
         font-size: 1em;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*------------------------------------------- animationer-------------------------------*/
+
+.flyv {
+    animation-name: flyv_kf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+@keyframes flyv_kf {
+    0% {
+        left: -10vw;
+    }
+    100% {
+        left: 110vw;
     }
 }

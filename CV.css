@@ -97,10 +97,13 @@ html {
         margin: 0;
     }
     h2 {
-        font-family: 'Merriweather', serif;
+        font-family: 'Henny Penny', cursive;
         font-size: 4em;
         font-weight: 500;
         padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        border: black 4px dotted;
     }
     h3 {
         color: black;
@@ -222,11 +225,14 @@ html {
         margin: 0;
     }
     h2 {
-        font-family: 'Merriweather', serif;
+        font-family: 'Henny Penny', cursive;
         font-size: 4em;
         font-weight: 500;
         padding-bottom: 20px;
         padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        border: black 4px dotted;
     }
     h3 {
         color: black;
@@ -350,11 +356,14 @@ html {
         background-image: linear-gradient(red, yellow) margin: 0;
     }
     h2 {
-        font-family: 'Merriweather', serif;
+        font-family: 'Henny Penny', cursive;
         font-size: 4em;
         font-weight: 500;
         padding-bottom: 20px;
         padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        border: black 4px dotted;
     }
     h3 {
         color: black;
