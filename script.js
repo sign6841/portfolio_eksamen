@@ -1,9 +1,12 @@
 window.addEventListener("load", sidenVises);
 
+
 function sidenVises() {
     console.log("sidenVises");
 
+
     document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+    document.querySelector("h2").classList.add("flyv");
 
 }
 
